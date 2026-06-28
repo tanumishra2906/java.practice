@@ -1,3 +1,4 @@
+package patterns;
 //Palindromic pattern
 /*  1
    212

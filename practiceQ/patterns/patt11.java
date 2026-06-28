@@ -1,3 +1,4 @@
+package patterns;
 //Solid rhombus
 //each patt prog look for what all to print in what order follow that order inside i loop
 /*

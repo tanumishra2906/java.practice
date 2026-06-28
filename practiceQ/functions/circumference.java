@@ -5,7 +5,6 @@ public class circumference{
         double circum= 2*3.14*r;
         return circum;
 
-
     }
 
     public static void main(String[] args) {
@@ -13,7 +12,6 @@ public class circumference{
         System.out.println("enter radius:");
         int r = sc.nextInt();
         System.out.println("circumference of the circle is " + Circum(r));
-        
-        
+                
     }
 }

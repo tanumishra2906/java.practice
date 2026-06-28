@@ -1,3 +1,4 @@
+package patterns;
 //solid rectangle star pattern
 
 import java.util.*;

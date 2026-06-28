@@ -1,3 +1,4 @@
+package patterns;
 //hollow rectangle
 import java.util.*;
 

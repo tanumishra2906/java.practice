@@ -1,3 +1,4 @@
+package patterns;
 //butterfly pattern (break in 4 parts)
 /* 
 *        *

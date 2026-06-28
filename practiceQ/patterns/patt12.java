@@ -1,3 +1,4 @@
+package patterns;
 //num pyramid
 /*    
     1 

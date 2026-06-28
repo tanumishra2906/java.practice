@@ -1,3 +1,4 @@
+package patterns;
 //inverted half pyramid with num
 
 import java.util.*;

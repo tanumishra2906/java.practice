@@ -1,3 +1,4 @@
+package patterns;
 //diamond pattern
 import java.util.*;
 
