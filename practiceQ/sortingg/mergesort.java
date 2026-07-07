@@ -34,11 +34,7 @@ public class mergesort {
     //merge is a temp array so copy these into org arra
     for(int i = 0, j = si; i < merge.length; i++, j++){
     arr[j] = merge[i];
-    }
-    
-
-
-            
+    }           
 
     }
 
