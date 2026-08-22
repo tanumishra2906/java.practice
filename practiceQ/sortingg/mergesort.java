@@ -9,7 +9,7 @@ public class mergesort {
         int[] merge = new int[ei-si+1]; //size of merged arr is ei-si+1
         int idx1= si; //1st divided arr to be merged
         int idx2 = mid+1;
-        int x=0 ; 
+        int x=0 ; //HELPING INDEX FOR NEW ARRAY
         
         while (idx1 <=mid && idx2<=ei) {
             if(arr[idx1]<=arr[idx2]){

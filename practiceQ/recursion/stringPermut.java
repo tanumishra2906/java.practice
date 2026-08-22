@@ -1,6 +1,6 @@
 //permutation of a string
 //possible combination of string
-
+//samething can be done using backtracking
 
 
 import java.util.*;
