@@ -6,7 +6,7 @@ public class singleNumber {
         int ans = 0;
 
         for (int i = 0; i < nums.length; i++) {
-            ans = ans ^ nums[i];
+            ans = ans ^ nums[i]; //refer notes use XOR 
         }
 
         return ans;
