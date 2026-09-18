@@ -16,7 +16,7 @@ import java.util.*;
 public class quicksort {
     public static int partition(int[] arr , int low , int high ){
         int pivot = arr[high]; //set last elem as pivot
-        int i= low-1; //initiay i=-1 cuz we assume no eem is before pivot...this acts as boundary i.e i index tak smaaler elem have been found
+        int i= low-1 ; //initiay i=-1 cuz we assume no eem is before pivot...this acts as boundary i.e i index tak smaaler elem has been found
 
         //traversing from low to high-1
         for(int j=low;j<high;j++){
@@ -66,3 +66,6 @@ public class quicksort {
 
     
 }
+
+//nlogn best and avg case
+//n2 worst case

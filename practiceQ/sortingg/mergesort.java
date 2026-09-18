@@ -5,7 +5,7 @@
 import java.util.*;
 
 public class mergesort {
-    public static void conquer(int [] arr, int si,int ei,int mid){ //here we will simply use mid ka value so pass it as an arg
+    public static void conquer (int [] arr, int si,int ei,int mid){ //here we will simply use mid ka value so pass it as an arg
         int[] merge = new int[ei-si+1]; //size of merged arr is ei-si+1
         int idx1= si; //1st divided arr to be merged
         int idx2 = mid+1;
@@ -49,9 +49,6 @@ public class mergesort {
         //call conquer func after arr has been divided
         conquer(arr, si, ei, mid);
 
-
-
-
     }
 
     public static void main(String[] args) {
@@ -71,6 +68,5 @@ public class mergesort {
             System.out.println(arr[i]+" ");
         }System.out.println();
     }
-
     
 }
